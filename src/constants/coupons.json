@@ -1,0 +1,9 @@
+[
+  {
+    "code": "10OFF",
+    "type": "PERCENTAGE",
+    "value": 10,
+    "minOrder": 100,
+    "validProducts": [1, 3]
+  }
+]

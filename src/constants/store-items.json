@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Item 1",
+    "price": 1200,
+    "qtyAvailable": 10,
+    "images": [
+      {
+        "url": "https://placehold.it/250x250?text=Image-01"
+      },
+      {
+        "url": "https://placehold.it/250x250?text=Image-02"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Item 2",
+    "price": 200,
+    "qtyAvailable": 100,
+    "images": [
+      {
+        "url": "//placehold.it/250x250?text=Image-01"
+      },
+      {
+        "url": "//placehold.it/250x250?text=Image-02"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Item 3",
+    "price": 1800,
+    "qtyAvailable": 0,
+    "images": [
+      {
+        "url": "//placehold.it/250x250?text=Image-01"
+      },
+      {
+        "url": "//placehold.it/250x250?text=Image-02"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Item 4",
+    "price": 2200,
+    "qtyAvailable": 250,
+    "images": [
+      {
+        "url": "//placehold.it/250x250?text=Image-01"
+      },
+      {
+        "url": "//placehold.it/250x250?text=Image-02"
+      }
+    ]
+  }
+]

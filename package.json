@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "shopping-backend",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.10",
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon --watch './**/*.ts' --exec 'node --loader ts-node/esm' src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
