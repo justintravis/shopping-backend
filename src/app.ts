@@ -1,5 +1,7 @@
 import express, { Express, Router, Request, Response } from 'express';
 
+const cors = require('cors');
+
 const bodyParser = require('body-parser');
 
 const products = require('./routes/products');
@@ -13,6 +15,7 @@ homeRouter.get('/', (req: Request, res: Response) => {
   res.send('ok');
 });
 
+app.use(cors());
 app.use(bodyParser.json());
 app.use('/', homeRouter);
 app.use('/products', products);
